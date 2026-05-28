@@ -56,7 +56,7 @@ router.post('/violation', async (req, res) => {
   }
 });
 
-router.get('/violations', requireAuth, async (req, res) => {
+router.get('/', requireAuth, async (req, res) => {
   try {
     const isAdmin = req.user?.role === 'admin';
     let filter = {};

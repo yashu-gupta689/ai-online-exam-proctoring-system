@@ -1,23 +1,20 @@
 @echo off
-echo Starting Backend...
-start cmd /k "cd /d "C:\Users\yashu\Documents\trae_projects\WEB CAM DETECTION\ai-online-exam-proctoring-system\backend" && node src/server.js"
-timeout /t 3
-echo Starting Frontend...
-start cmd /k "cd /d "C:\Users\yashu\Documents\trae_projects\WEB CAM DETECTION\ai-online-exam-proctoring-system\frontend" && npm run dev"
-echo Both servers started!
+echo Starting AI Online Exam Proctoring System...
+
+echo.
+echo [1/2] Starting Backend Server...
+start cmd /k "cd /d "%~dp0backend" && npm run dev"
+
+timeout /t 5
+
+echo.
+echo [2/2] Starting Frontend Application...
+start cmd /k "cd /d "%~dp0frontend" && npm run dev"
+
+echo.
+echo ==================================================
+echo System is starting up!
+echo Backend: http://localhost:5000
+echo Frontend: http://localhost:5173
+echo ==================================================
 pause
-```
-
----
-
-### 🔧 Step 3 — File Save karo:
-1. **Ctrl+S** dabaao
-2. Save dialog aayega
-3. **File name** me likho:
-```
-start-all.bat
-```
-4. **Save as type** me select karo: **All Files**
-5. Location select karo:
-```
-C:\Users\yashu\Documents\trae_projects\WEB CAM DETECTION\ai-online-exam-proctoring-system

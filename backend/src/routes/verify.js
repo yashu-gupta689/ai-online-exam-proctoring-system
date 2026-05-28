@@ -81,13 +81,13 @@ router.post('/verify/liveness-start', requireAuth, async (req, res) => {
     const __dirname = path.dirname(__filename);
     const projectRoot = path.join(__dirname, '..', '..', '..');
     const scriptPath = path.join(projectRoot, 'ai-module', 'liveness_check.py');
-    const port = process.env.PORT || 4000;
+    const port = process.env.PORT || 5000;
     const env = {
       ...process.env,
       BACKEND_URL: `http://localhost:${port}/api`,
       STUDENT_ID: req.user?.email || 'anonymous'
     };
-    let cmd = 'python';
+    let cmd = process.platform === 'win32' ? 'python' : 'python3';
     let args = [scriptPath];
     const child = spawn(cmd, args, { env, stdio: 'ignore', detached: true, windowsHide: true });
     child.unref();

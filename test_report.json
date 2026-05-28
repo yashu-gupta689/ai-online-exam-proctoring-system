@@ -1,0 +1,332 @@
+{
+  "timestamp": "2026-03-19T08:47:28.783Z",
+  "summary": {
+    "passed": 58,
+    "failed": 2,
+    "warned": 4,
+    "total": 64,
+    "healthScore": "91%"
+  },
+  "results": [
+    {
+      "status": "PASS",
+      "label": "File exists",
+      "message": "backend/src/server.js"
+    },
+    {
+      "status": "PASS",
+      "label": "File exists",
+      "message": "backend/src/config/db.js"
+    },
+    {
+      "status": "PASS",
+      "label": "File exists",
+      "message": "backend/src/middleware/auth.js"
+    },
+    {
+      "status": "PASS",
+      "label": "File exists",
+      "message": "backend/src/models/User.js"
+    },
+    {
+      "status": "PASS",
+      "label": "File exists",
+      "message": "backend/src/models/ExamConfig.js"
+    },
+    {
+      "status": "PASS",
+      "label": "File exists",
+      "message": "backend/src/models/ExamSession.js"
+    },
+    {
+      "status": "PASS",
+      "label": "File exists",
+      "message": "backend/src/models/Violation.js"
+    },
+    {
+      "status": "PASS",
+      "label": "File exists",
+      "message": "backend/src/models/Question.js"
+    },
+    {
+      "status": "PASS",
+      "label": "File exists",
+      "message": "backend/src/routes/auth.js"
+    },
+    {
+      "status": "PASS",
+      "label": "File exists",
+      "message": "backend/src/routes/exams.js"
+    },
+    {
+      "status": "PASS",
+      "label": "File exists",
+      "message": "backend/src/routes/violations.js"
+    },
+    {
+      "status": "PASS",
+      "label": "File exists",
+      "message": "backend/src/routes/results.js"
+    },
+    {
+      "status": "PASS",
+      "label": "File exists",
+      "message": "backend/src/routes/admin.js"
+    },
+    {
+      "status": "PASS",
+      "label": "File exists",
+      "message": "backend/src/routes/ai.js"
+    },
+    {
+      "status": "PASS",
+      "label": "File exists",
+      "message": "backend/package.json"
+    },
+    {
+      "status": "PASS",
+      "label": "File exists",
+      "message": "backend/.env"
+    },
+    {
+      "status": "PASS",
+      "label": "File exists",
+      "message": "frontend/src/App.jsx"
+    },
+    {
+      "status": "PASS",
+      "label": "File exists",
+      "message": "frontend/src/main.jsx"
+    },
+    {
+      "status": "PASS",
+      "label": "File exists",
+      "message": "frontend/src/services/api.js"
+    },
+    {
+      "status": "PASS",
+      "label": "File exists",
+      "message": "frontend/src/components/Login.jsx"
+    },
+    {
+      "status": "PASS",
+      "label": "File exists",
+      "message": "frontend/src/components/Signup.jsx"
+    },
+    {
+      "status": "PASS",
+      "label": "File exists",
+      "message": "frontend/src/pages/StudentDashboard.jsx"
+    },
+    {
+      "status": "PASS",
+      "label": "File exists",
+      "message": "frontend/src/pages/AdminDashboard.jsx"
+    },
+    {
+      "status": "PASS",
+      "label": "File exists",
+      "message": "frontend/src/pages/ExamList.jsx"
+    },
+    {
+      "status": "PASS",
+      "label": "File exists",
+      "message": "frontend/src/pages/Results.jsx"
+    },
+    {
+      "status": "PASS",
+      "label": "File exists",
+      "message": "frontend/package.json"
+    },
+    {
+      "status": "PASS",
+      "label": "File exists",
+      "message": "ai-module/detector.py"
+    },
+    {
+      "status": "PASS",
+      "label": "File exists",
+      "message": "ai-module/main.py"
+    },
+    {
+      "status": "PASS",
+      "label": "File exists",
+      "message": "ai-module/liveness_check.py"
+    },
+    {
+      "status": "PASS",
+      "label": "File exists",
+      "message": "ai-module/verify_face.py"
+    },
+    {
+      "status": "PASS",
+      "label": "File exists",
+      "message": "ai-module/requirements.txt"
+    },
+    {
+      "status": "PASS",
+      "label": "File exists",
+      "message": "ai-detection/webcam_monitor.py"
+    },
+    {
+      "status": "PASS",
+      "label": "File exists",
+      "message": "ai-detection/requirements.txt"
+    },
+    {
+      "status": "FAIL",
+      "label": ".env variable",
+      "message": "MONGODB_URI is MISSING or EMPTY"
+    },
+    {
+      "status": "PASS",
+      "label": ".env variable",
+      "message": "JWT_SECRET is set"
+    },
+    {
+      "status": "PASS",
+      "label": ".env variable",
+      "message": "PORT is set"
+    },
+    {
+      "status": "PASS",
+      "label": ".env optional",
+      "message": "GROQ_API_KEY is present"
+    },
+    {
+      "status": "WARN",
+      "label": ".env optional",
+      "message": "EMAIL_USER not found (needed for some features)"
+    },
+    {
+      "status": "WARN",
+      "label": ".env optional",
+      "message": "EMAIL_PASS not found (needed for some features)"
+    },
+    {
+      "status": "PASS",
+      "label": "PORT config",
+      "message": "PORT=4000 ✓ Correct"
+    },
+    {
+      "status": "PASS",
+      "label": "Backend dep",
+      "message": "express found"
+    },
+    {
+      "status": "PASS",
+      "label": "Backend dep",
+      "message": "mongoose found"
+    },
+    {
+      "status": "PASS",
+      "label": "Backend dep",
+      "message": "jsonwebtoken found"
+    },
+    {
+      "status": "PASS",
+      "label": "Backend dep",
+      "message": "bcrypt found"
+    },
+    {
+      "status": "PASS",
+      "label": "Backend dep",
+      "message": "socket.io found"
+    },
+    {
+      "status": "PASS",
+      "label": "Backend dep",
+      "message": "cors found"
+    },
+    {
+      "status": "PASS",
+      "label": "Backend dep",
+      "message": "dotenv found"
+    },
+    {
+      "status": "PASS",
+      "label": "Backend optional dep",
+      "message": "nodemailer found"
+    },
+    {
+      "status": "PASS",
+      "label": "Backend optional dep",
+      "message": "morgan found"
+    },
+    {
+      "status": "WARN",
+      "label": "Backend optional dep",
+      "message": "multer not in package.json"
+    },
+    {
+      "status": "PASS",
+      "label": "Frontend dep",
+      "message": "react found"
+    },
+    {
+      "status": "PASS",
+      "label": "Frontend dep",
+      "message": "react-dom found"
+    },
+    {
+      "status": "PASS",
+      "label": "Frontend dep",
+      "message": "axios found"
+    },
+    {
+      "status": "PASS",
+      "label": "Frontend dep",
+      "message": "react-router-dom found"
+    },
+    {
+      "status": "PASS",
+      "label": "Frontend dep",
+      "message": "socket.io-client found"
+    },
+    {
+      "status": "PASS",
+      "label": "BUG #1",
+      "message": "requireAdmin bug is fixed in ai.js"
+    },
+    {
+      "status": "PASS",
+      "label": "BUG #2",
+      "message": "Frontend API port is correct (not 5000)"
+    },
+    {
+      "status": "PASS",
+      "label": "BUG #2 confirm",
+      "message": "Frontend correctly uses port 4000"
+    },
+    {
+      "status": "PASS",
+      "label": "BUG #3",
+      "message": "webcam_monitor.py port is correct"
+    },
+    {
+      "status": "PASS",
+      "label": "BUG #4",
+      "message": "nodemailer is in package.json"
+    },
+    {
+      "status": "PASS",
+      "label": "BUG #5",
+      "message": "liveness_check.py does not use hardcoded python command"
+    },
+    {
+      "status": "PASS",
+      "label": "AUTH middleware",
+      "message": "requireRole function exists in auth.js"
+    },
+    {
+      "status": "FAIL",
+      "label": "Server connection",
+      "message": "Cannot connect to http://localhost:4000 — "
+    },
+    {
+      "status": "WARN",
+      "label": "API Tests",
+      "message": "Skipping all API tests — start backend first"
+    }
+  ]
+}

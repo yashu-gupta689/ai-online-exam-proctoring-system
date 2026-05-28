@@ -12,7 +12,7 @@ try:
 except Exception:
   ort = None
 
-BACKEND_URL = os.environ.get("BACKEND_URL", "http://localhost:4000/api")
+BACKEND_URL = os.environ.get("BACKEND_URL", "http://localhost:5000/api")
 STUDENT_ID = os.environ.get("STUDENT_ID", "anonymous")
 COOLDOWN_S = float(os.environ.get("EVENT_COOLDOWN_S", "5.0"))
 SCREENSHOT_DIR = os.environ.get("SCREENSHOT_DIR", "screenshots")

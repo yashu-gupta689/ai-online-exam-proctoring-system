@@ -7,7 +7,7 @@ import mediapipe as mp
 import numpy as np
 import requests
 
-BACKEND_URL = os.environ.get("BACKEND_URL", "http://localhost:4000/api")
+BACKEND_URL = os.environ.get("BACKEND_URL", "http://localhost:5000/api")
 STUDENT_ID = os.environ.get("STUDENT_ID", "anonymous")
 TIMEOUT_S = float(os.environ.get("LIVENESS_TIMEOUT_S", "30"))
 

@@ -6,7 +6,7 @@ import cv2 as cv
 import face_recognition
 import requests
 
-BACKEND_URL = os.environ.get("BACKEND_URL", "http://localhost:4000/api")
+BACKEND_URL = os.environ.get("BACKEND_URL", "http://localhost:5000/api")
 STUDENT_ID = os.environ.get("STUDENT_ID", "anonymous")
 PROFILE_IMAGE = os.environ.get("PROFILE_IMAGE", None)
 PROFILE_DIR = os.environ.get("PROFILE_DIR", "profiles")
